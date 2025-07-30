@@ -36,6 +36,6 @@ public class DigitDissection {
 
         System.out.println("Number of digits: " + countDigits(testNum));
         System.out.println("Sum of even digits: " + sumEvenDigits(testNum));
-        System.out.println("Average of digits: " + averageOfDigits(testNum));
+        System.out.println("Average of all digits: " + averageOfDigits(testNum));
     }
 }
