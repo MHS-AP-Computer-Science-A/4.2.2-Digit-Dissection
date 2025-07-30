@@ -31,7 +31,7 @@ public class DigitDissection {
     }
 
     public static void main(String[] args) {
-        int testNum = (int)(Math.random() * 99991) + 10; // Random number between 10 and 100000
+        int testNum = (int)(Math.random() * 999991) + 10; // Random number between 10 and 1000000
         System.out.println("Random number: " + testNum);
 
         System.out.println("Number of digits: " + countDigits(testNum));
